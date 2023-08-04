@@ -1,0 +1,6 @@
+{
+	"upgradeName" : "Straw",
+	"upgradeMul" : 1.5,
+	"spriteName" : "straw",
+	"requirementCount" : 10
+}

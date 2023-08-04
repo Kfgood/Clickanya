@@ -1,0 +1,12 @@
+{
+	"itemName" : "Buff Max",
+	"growthFactorConstant" : 1.2,
+	"growthFactorConstantDigit" : 10,
+	"growthFactor" : 1.1,
+	"baseCost" : 1.5,
+	"baseCostDigit" : 12,
+	"waterDrainRate" : 2.5,
+	"waterDrainRateDigit" : 11,
+	"maxCost" : 1,
+	"spriteName" : "max_salute"
+}

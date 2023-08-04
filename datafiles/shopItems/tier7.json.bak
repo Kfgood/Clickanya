@@ -1,0 +1,12 @@
+{
+	"itemName" : "Tier 7",
+	"growthFactorConstant" : 2,
+	"growthFactorConstantDigit" : 0,
+	"growthFactor" : 2,
+	"baseCost" : 5,
+	"baseCostDigit" : 1,
+	"waterDrainRate" : 2,
+	"waterDrainRateDigit" : 13,
+	"maxCost" : 0,
+	"spriteName" : "max_salute"
+}

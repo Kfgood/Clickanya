@@ -1,0 +1,6 @@
+{
+	"upgradeName" : "Bucket",
+	"upgradeMul" : 2.5,
+	"requirementCount" : 20,
+	"spriteName" : "bucket"
+}

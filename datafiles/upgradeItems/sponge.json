@@ -1,0 +1,6 @@
+{
+	"upgradeName" : "Sponge",
+	"upgradeMul" : 10,
+	"requirementCount" : 35,
+	"spriteName" : "sponge"
+}

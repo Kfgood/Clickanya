@@ -1,0 +1,25 @@
+{
+	"names" :
+	[
+		{
+			"name" : "Barriripper",
+			"colorHex" : "0x374f2f"
+		},
+		{
+			"name" : "NotAWizard",
+			"colorHex" : "0xffffff"
+		},
+		{
+			"name" : "OddWinters",
+			"colorHex" : "0x63f658"
+		},
+		{
+			"name" : "HamburgerOfJustice",
+			"colorHex" : "0xffffff"
+		},
+		{
+			"name" : "Packard",
+			"colorHex" : "0xffffff"
+		}
+	]
+}

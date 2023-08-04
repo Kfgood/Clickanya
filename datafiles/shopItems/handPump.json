@@ -1,0 +1,12 @@
+{
+	"itemName" : "Hand Pump",
+	"growthFactorConstant" : 50,
+	"growthFactorConstantDigit" : 0,
+	"growthFactor" : 1.7,
+	"baseCost" : 1,
+	"baseCostDigit" : 3,
+	"waterDrainRate" : 5,
+	"waterDrainRateDigit" : 1,
+	"maxCost" : 1,
+	"spriteName" : "water-pump"
+}

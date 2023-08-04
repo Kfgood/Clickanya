@@ -1,0 +1,12 @@
+{
+	"itemName" : "Electric Pump",
+	"growthFactorConstant" : 1,
+	"growthFactorConstantDigit" : 3,
+	"growthFactor" : 1.6,
+	"baseCost" : 1.45,
+	"baseCostDigit" : 5,
+	"waterDrainRate" : 1,
+	"waterDrainRateDigit" : 4,
+	"maxCost" : 2,
+	"spriteName" : "max_salute"
+}
