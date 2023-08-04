@@ -7,5 +7,6 @@ function spawnNewDisplay(sprite, xx, yy, name){
 }
 
 function getRandomMaxName() {
+	//Testing push mechanics
 	return "Mex";
 }
