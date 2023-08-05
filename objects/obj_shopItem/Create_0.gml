@@ -23,6 +23,8 @@ drainRateModifiers = 1;
 displayCurrXIndex = 1;
 displayCurrYIndex = 1;
 
+displayObjects = [];
+
 sprite = pointer_null;
 
 upgrades = [];

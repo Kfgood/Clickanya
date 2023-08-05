@@ -8,5 +8,40 @@
 	"waterDrainRate" : 5,
 	"waterDrainRateDigit" : 1,
 	"maxCost" : 1,
-	"spriteName" : "water-pump"
+	"spriteName" : "water-pump",
+	"upgradeCost" : [
+		"1E4",
+		"1E6",
+		"1E8",
+		"1E10",
+		"1E13"
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				0,0,0,0,0
+			],
+			"segmentFlip" : [
+				0
+			]
+		},
+		{
+			"main" : "max_straw_bucket"
+		},
+		{
+			"main" : "max_straw_bucket_sand"
+		},
+		{
+			"main" : "max_straw_bucket_sand_sponge"
+		},
+		{
+			"main" : "max_straw_bucket_sand_sponge_lava"
+		}
+	]
 }

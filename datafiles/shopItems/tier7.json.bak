@@ -1,12 +1,19 @@
 {
 	"itemName" : "Tier 7",
-	"growthFactorConstant" : 2,
-	"growthFactorConstantDigit" : 0,
-	"growthFactor" : 2,
-	"baseCost" : 5,
-	"baseCostDigit" : 1,
+	"growthFactorConstant" : 9,
+	"growthFactorConstantDigit" : 11,
+	"growthFactor" : 1.15,
+	"baseCost" : 1,
+	"baseCostDigit" : 14,
 	"waterDrainRate" : 2,
 	"waterDrainRateDigit" : 13,
 	"maxCost" : 0,
 	"spriteName" : "max_salute"
+	"upgradeCost" : [
+		"1E15",
+		"1E16",
+		"5E17",
+		"7E19",
+		"1E21"
+	]
 }

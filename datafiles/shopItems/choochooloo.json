@@ -8,5 +8,284 @@
 	"waterDrainRate" : 7,
 	"waterDrainRateDigit" : 21,
 	"maxCost" : 5,
-	"spriteName" : "max_salute"
+	"spriteName" : "choochooloo",
+	"upgradeCost" : [
+		"5E21",
+		"1E22",
+		"7E22",
+		"1E23",
+		"1E24"
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentFlip" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			]
+		},
+		{
+			"segment" : "max_straw_bucket",
+			"segmentPositions" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentFlip" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand",
+			"segmentPositions" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentFlip" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge",
+			"segmentPositions" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentFlip" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge_lava",
+			"segmentPositions" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"segmentFlip" : [
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				],
+				[
+					
+				]
+			]
+		}
+	]
 }

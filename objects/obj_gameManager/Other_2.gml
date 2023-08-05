@@ -55,8 +55,6 @@ if (is_array(items)) {
 			}
 			items[i] = temp;
 			
-			
-			
 		}
 		catch (e) {
 			show_debug_message("Error with spawning JSON defined instance {0}: {1}", fileData, e);
@@ -72,12 +70,31 @@ if (is_array(items)) {
 		items[i].y = posY;
 		
 		for (var k = 0; k < array_length(upgrades); k++) {
+			upgrades[k].tiedObj = items[i];
 			var upgrade = instance_create_depth(posX + 32*k, posY - 32, -1, obj_upgrades, upgrades[k]);
-			upgrade.tiedObj = items[i];
 			array_push(items[i].upgrades, upgrade);
-			instance_deactivate_object(upgrade);
+			upgrade.visible = false;
+			if (variable_instance_exists(items[i], "upgradeRequirement")) {
+				upgrade.requirementCount = items[i].upgradeRequirement[k]
+			}
+			if (variable_instance_exists(items[i], "upgradeCost")) {
+				upgrade.cost = string_split(items[i].upgradeCost[k], "E");
+				upgrade.cost[0] = real(upgrade.cost[0]);
+				upgrade.cost[1] = real(upgrade.cost[1]);
+			}
+			if (variable_instance_exists(items[i], "upgradeGraphics")) {
+				var graphicData = items[i].upgradeGraphics[k];
+				if (variable_instance_exists(graphicData, "main")) {
+					upgrade.mainGraphic = sprite_add(working_directory + "/sprites/items/display/" + graphicData.main + ".png", 0, true, true, 0, 0);
+				}
+				if (variable_instance_exists(graphicData, "segment")) {
+					upgrade.segmentGraphic = graphicData.segment;
+					upgrade.segmentPos = graphicData.segmentPositions;
+					upgrade.segmentRot = graphicData.segmentRotation;
+					upgrade.segmentFlip = graphicData.segmentFlip;
+				}
+			}
 		}
 		posY += items[i].sprite_height + 32
 	}
-	
 }

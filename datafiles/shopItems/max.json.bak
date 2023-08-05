@@ -8,5 +8,36 @@
 	"waterDrainRate" : 1,
 	"waterDrainRateDigit" : 0,
 	"maxCost" : 0,
-	"spriteName" : "max_salute"
+	"spriteName" : "max",
+	"upgradeCost" : [
+		"5E3",
+		"1.5E4",
+		"1E6",
+		"1E9",
+		"1.5E13"
+	],
+	"upgradeRequirement" : [
+		"5",
+		"10",
+		"20",
+		"25",
+		"35"
+	],
+	"upgradeGraphics" : [
+		{
+			"main" : "max_straw"
+		},
+		{
+			"main" : "max_straw_bucket"
+		},
+		{
+			"main" : "max_straw_bucket_sand"
+		},
+		{
+			"main" : "max_straw_bucket_sand_sponge"
+		},
+		{
+			"main" : "max_straw"
+		}
+	]
 }

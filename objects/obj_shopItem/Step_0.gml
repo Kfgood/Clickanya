@@ -12,7 +12,6 @@ if (itemCount <= 0)
 
 counter++;
 var temp = convertToDigit(waterDrainRate * itemCount * counter * drainRateModifiers / 60);
-show_debug_message(temp);
 var result = increaseWaterDrained(temp[0], temp[1] + waterDrainRateDigit);
 if (is_array(result)) {
 	show_debug_message("Lost water from large addition: {0}e{1}", result[0], result[1]);

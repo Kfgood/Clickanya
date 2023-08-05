@@ -26,6 +26,7 @@
     {"name":"mainMenu","order":1,"path":"rooms/mainMenu/mainMenu.yy",},
     {"name":"spr_displayItem","order":2,"path":"sprites/spr_displayItem/spr_displayItem.yy",},
     {"name":"Script4","order":3,"path":"scripts/Script4/Script4.yy",},
+    {"name":"spr_check","order":6,"path":"sprites/spr_check/spr_check.yy",},
     {"name":"spr_upgrade","order":5,"path":"sprites/spr_upgrade/spr_upgrade.yy",},
     {"name":"obj_displayObj","order":4,"path":"objects/obj_displayObj/obj_displayObj.yy",},
     {"name":"obj_clickZone","order":2,"path":"objects/obj_clickZone/obj_clickZone.yy",},

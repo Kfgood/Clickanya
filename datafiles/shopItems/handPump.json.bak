@@ -5,8 +5,46 @@
 	"growthFactor" : 1.7,
 	"baseCost" : 1,
 	"baseCostDigit" : 3,
-	"waterDrainRate" : 50,
-	"waterDrainRateDigit" : 0,
+	"waterDrainRate" : 5,
+	"waterDrainRateDigit" : 1,
 	"maxCost" : 1,
-	"spriteName" : "water-pump"
+	"spriteName" : "water-pump",
+	"upgradeCost" : [
+		"1E4",
+		"1E6",
+		"1E8",
+		"1E10",
+		"1E13"
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[
+					
+				]
+			],
+			"segmentRotation" : [
+				0,0,0,0,0
+			],
+			"segmentFlip" : [
+				{
+					"x" : 0,
+					"y" : 0
+				}
+			]
+		},
+		{
+			"main" : "max_straw_bucket"
+		},
+		{
+			"main" : "max_straw_bucket_sand"
+		},
+		{
+			"main" : "max_straw_bucket_sand_sponge"
+		},
+		{
+			"main" : "max_straw_bucket_sand_sponge_lava"
+		}
+	]
 }

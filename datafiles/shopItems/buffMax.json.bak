@@ -7,6 +7,13 @@
 	"baseCostDigit" : 12,
 	"waterDrainRate" : 2.5,
 	"waterDrainRateDigit" : 11,
-	"maxCost" : 0,
+	"maxCost" : 1,
 	"spriteName" : "max_salute"
+	"upgradeCost" : [
+		"1E13",
+		"1E15",
+		"1E17",
+		"1E19",
+		"1E22"
+	]
 }

@@ -11,15 +11,28 @@
 		},
 		{
 			"name" : "OddWinters",
-			"colorHex" : "0x63f658"
+			"colorHex" : "0x00ff7f"
 		},
 		{
 			"name" : "HamburgerOfJustice",
-			"colorHex" : "0xffffff"
+			"colorHex" : "0xe05c5c"
 		},
 		{
 			"name" : "Packard",
-			"colorHex" : "0xffffff"
+			"colorHex" : "0xf2c4d7"
+		},
+		{
+			"name" : "Ustnap",
+			"colorHex" : "0x00a31b"
+		},
+		{
+			"name" : "Randlaufer"
+		},
+		{
+			"name" : "Grawne"
+		},
+		{
+			"name" : "Coyoteknight"
 		}
 	]
 }

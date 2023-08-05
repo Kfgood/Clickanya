@@ -24,6 +24,18 @@
 		{
 			"name" : "Ustnap",
 			"colorHex" : "0x00a31b"
+		},
+		{
+			"name" : "Randlaufer"
+		},
+		{
+			"name" : "Grawne"
+		},
+		{
+			"name" : "Coyoteknight"
+		},
+		{
+			"name" : "Idlebear"
 		}
 	]
 }

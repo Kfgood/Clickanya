@@ -1,7 +1,7 @@
 {
 	"itemName" : "Fefe",
-	"growthFactorConstant" : 2,
-	"growthFactorConstantDigit" : 0,
+	"growthFactorConstant" : 1.35,
+	"growthFactorConstantDigit" : 16,
 	"growthFactor" : 1.2,
 	"baseCost" : 1.5,
 	"baseCostDigit" : 19,
@@ -9,4 +9,11 @@
 	"waterDrainRateDigit" : 18,
 	"maxCost" : 0,
 	"spriteName" : "max_salute"
+	"upgradeCost" : [
+		"1E20",
+		"5E20",
+		"1E21",
+		"1E22",
+		"5E22"
+	]
 }

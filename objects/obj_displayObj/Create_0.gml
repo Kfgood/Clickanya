@@ -3,7 +3,8 @@
 
 if (!variable_instance_exists(self, "displayItemName")) {
 	displayItemName = "Max";
-	spriteName = "max_salute";
+	itemName = "Max";
+	spriteName = "max";
 }
 
 if (!variable_instance_exists(self, "sprite")) {
