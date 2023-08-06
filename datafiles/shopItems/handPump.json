@@ -9,6 +9,13 @@
 	"waterDrainRateDigit" : 1,
 	"maxCost" : 1,
 	"spriteName" : "water-pump",
+	"additionalSpriteData" : [
+		{
+			"pos" : [0, 0],
+			"name" : "max",
+			"layer" : -1
+		}
+	],
 	"upgradeCost" : [
 		"1E4",
 		"1E6",
@@ -20,28 +27,77 @@
 		{
 			"segment" : "max_straw",
 			"segmentPositions" : [
-				[
-					
-				]
+				[0,0]
 			],
 			"segmentRotation" : [
-				0,0,0,0,0
+				0
 			],
 			"segmentFlip" : [
 				0
+			],
+			"segmentLayer" : [
+				-1
 			]
 		},
 		{
-			"main" : "max_straw_bucket"
+			"segment" : "max_straw_bucket",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
 		},
 		{
-			"main" : "max_straw_bucket_sand"
+			"segment" : "max_straw_bucket_sand",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
 		},
 		{
-			"main" : "max_straw_bucket_sand_sponge"
+			"segment" : "max_straw_bucket_sand_sponge",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
 		},
 		{
-			"main" : "max_straw_bucket_sand_sponge_lava"
+			"segment" : "max_straw_bucket_sand_sponge_lava",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
 		}
 	]
 }

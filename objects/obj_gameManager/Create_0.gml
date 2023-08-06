@@ -24,6 +24,7 @@ global.initialClickDrainRate = 1;
 global.initialClickDrainRateDigit = 0;
 
 global.maxItem = pointer_null;
+global.finalTier = pointer_null;
 global.shopSprites = {};
 global.displaySprites = {};
 global.upgradeSprites = {};
@@ -35,3 +36,7 @@ global.usedMax = [];
 
 global.genericMax = [];
 global.max = {};
+
+barPosition = [0, 0];
+
+instance_create_layer(0, 0, 0, obj_scrollBar);

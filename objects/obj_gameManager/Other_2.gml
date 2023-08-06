@@ -66,6 +66,8 @@ if (is_array(items)) {
 			o2.waterDrainRate, o2.waterDrainRateDigit);
 	});
 	
+	global.finalTier = items[array_length(items) - 1];
+	
 	for (var i = 0; i < array_length(items); i++) {
 		items[i].y = posY;
 		
@@ -81,18 +83,6 @@ if (is_array(items)) {
 				upgrade.cost = string_split(items[i].upgradeCost[k], "E");
 				upgrade.cost[0] = real(upgrade.cost[0]);
 				upgrade.cost[1] = real(upgrade.cost[1]);
-			}
-			if (variable_instance_exists(items[i], "upgradeGraphics")) {
-				var graphicData = items[i].upgradeGraphics[k];
-				if (variable_instance_exists(graphicData, "main")) {
-					upgrade.mainGraphic = sprite_add(working_directory + "/sprites/items/display/" + graphicData.main + ".png", 0, true, true, 0, 0);
-				}
-				if (variable_instance_exists(graphicData, "segment")) {
-					upgrade.segmentGraphic = graphicData.segment;
-					upgrade.segmentPos = graphicData.segmentPositions;
-					upgrade.segmentRot = graphicData.segmentRotation;
-					upgrade.segmentFlip = graphicData.segmentFlip;
-				}
 			}
 		}
 		posY += items[i].sprite_height + 32

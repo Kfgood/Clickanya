@@ -58,14 +58,12 @@ if (collision_point(mouse_x, mouse_y, self, false, false)) {
 		}
 		var yC = self.y + sprite_get_height(displaySprite) * displayCurrYIndex;
 		var yX = room_width / 3 + sprite_get_width(displaySprite) * displayCurrXIndex;
-		if (yX > self.x - sprite_get_width(displaySprite) - 32) return;
+		if (yX > self.x - sprite_get_width(displaySprite) - 32) break;
 		
 		var s = displaySprite;
 		
-		if (upgradeIndex > 0 && variable_instance_exists(upgrades[upgradeIndex - 1], "mainGraphic"))
-			s = upgrades[upgradeIndex - 1].mainGraphic;
-		
 		var newItem = spawnNewDisplay(s, yX, yC, name);
+		newItem.tiedObj = self;
 		
 		array_push(displayObjects, newItem);
 		
@@ -84,9 +82,8 @@ if (collision_point(mouse_x, mouse_y, self, false, false)) {
 			displayCurrYIndex++;
 	}
 	
-	if (upgradeIndex < array_length(upgrades) &&
-		itemCount > upgrades[upgradeIndex].requirementCount &&
-		(upgradeIndex == 0 || upgrades[upgradeIndex - 1].purchased)) {
-		upgrades[upgradeIndex++].visible = true;
+	while (unlockedUpgrades < array_length(upgrades) - 1 &&
+		itemCount > upgrades[unlockedUpgrades + 1].requirementCount) {
+		unlockedUpgrades++;
 	}
 }

@@ -24,6 +24,7 @@
 		"35"
 	],
 	"upgradeGraphics" : [
+		{},
 		{
 			"main" : "max_straw"
 		},
@@ -37,7 +38,7 @@
 			"main" : "max_straw_bucket_sand_sponge"
 		},
 		{
-			"main" : "max_straw"
+			"main" : "max_straw_bucket_sand_sponge_lava"
 		}
 	]
 }

@@ -18,3 +18,15 @@ if (!variable_instance_exists(self, "sprite")) {
 		struct_set(global.displaySprites, spriteName, sprite);
 	}
 }
+
+if (!variable_instance_exists(self, "additionalSpriteData")) {
+	additionalSpriteData = [];
+}
+
+if (!variable_instance_exists(self, "upgradeGraphics")) {
+	upgradeGraphics = [];
+}
+
+if (!variable_instance_exists(self, "tiedObj")) {
+	tiedObj = pointer_null;
+}

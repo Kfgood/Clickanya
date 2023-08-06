@@ -8,4 +8,5 @@ var drainedWater = string("{0}e{1} / {2}e{3}",
 
 draw_text(room_width / 6, string_height(drainedWater), drainedWater)
 
-draw_rectangle(room_width - 32, 0, room_width, room_height, false)
+//draw_rectangle_color(room_width - 32, 0, room_width, room_height, c_dkgrey, c_dkgrey, c_dkgrey, c_dkgrey, false);
+//draw_rectangle_color(room_width - 28, 0, room_width - 4,  room_height*100 / (global.finalTier.y + global.finalTier.sprite_height), c_grey, c_grey, c_grey, c_grey, false)
