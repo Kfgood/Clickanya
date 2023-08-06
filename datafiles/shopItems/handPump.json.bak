@@ -9,9 +9,9 @@
 	"waterDrainRateDigit" : 1,
 	"maxCost" : 1,
 	"spriteName" : "water-pump",
-	"additionalDisplaySpriteData" : [
+	"additionalSpriteData" : [
 		{
-			"pos" : [0, 0],
+			"pos" : [20, 0],
 			"name" : "max",
 			"layer" : -1
 		}
@@ -27,7 +27,7 @@
 		{
 			"segment" : "max_straw",
 			"segmentPositions" : [
-				[0,0]
+				[20,0]
 			],
 			"segmentRotation" : [
 				0
@@ -42,7 +42,7 @@
 		{
 			"segment" : "max_straw_bucket",
 			"segmentPositions" : [
-				[0,0]
+				[20,0]
 			],
 			"segmentRotation" : [
 				0
@@ -57,7 +57,7 @@
 		{
 			"segment" : "max_straw_bucket_sand",
 			"segmentPositions" : [
-				[0,0]
+				[20,0]
 			],
 			"segmentRotation" : [
 				0
@@ -72,7 +72,7 @@
 		{
 			"segment" : "max_straw_bucket_sand_sponge",
 			"segmentPositions" : [
-				[0,0]
+				[20,0]
 			],
 			"segmentRotation" : [
 				0
@@ -87,7 +87,7 @@
 		{
 			"segment" : "max_straw_bucket_sand_sponge_lava",
 			"segmentPositions" : [
-				[0,0]
+				[20,0]
 			],
 			"segmentRotation" : [
 				0

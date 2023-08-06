@@ -88,3 +88,14 @@ if (is_array(items)) {
 		posY += items[i].sprite_height + 32
 	}
 }
+
+path = working_directory + "/maxNames.json";
+var fileId = file_text_open_read(working_directory);
+
+if (!fileId) return;
+
+var fileData = "";
+while (!file_text_eof(fileId))
+	fileData += file_text_readln(fileId);
+file_text_close(fileId);
+
