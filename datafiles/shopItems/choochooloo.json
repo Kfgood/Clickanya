@@ -9,6 +9,33 @@
 	"waterDrainRateDigit" : 21,
 	"maxCost" : 5,
 	"spriteName" : "choochooloo",
+	"additionalSpriteData" : [
+		{
+			"pos" : [42, 40],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [360, 69],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [315, 8],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [27, -6],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [94, 69],
+			"name" : "max",
+			"layer" : 1
+		}
+	],
 	"upgradeCost" : [
 		"5E21",
 		"1E22",
@@ -20,271 +47,76 @@
 		{
 			"segment" : "max_straw",
 			"segmentPositions" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				[42, 40],[360, 69],[315, 8],[27, -6],[94, 69]
 			],
 			"segmentRotation" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
 			],
 			"segmentFlip" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1, 1, 1
 			]
 		},
 		{
 			"segment" : "max_straw_bucket",
 			"segmentPositions" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				[42, 40],[360, 69],[315, 8],[27, -6],[94, 69]
 			],
 			"segmentRotation" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
 			],
 			"segmentFlip" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1, 1, 1
 			]
 		},
 		{
 			"segment" : "max_straw_bucket_sand",
 			"segmentPositions" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				[42, 40],[360, 69],[315, 8],[27, -6],[94, 69]
 			],
 			"segmentRotation" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
 			],
 			"segmentFlip" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1, 1, 1
 			]
 		},
 		{
 			"segment" : "max_straw_bucket_sand_sponge",
 			"segmentPositions" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				[42, 40],[360, 69],[315, 8],[27, -6],[94, 69]
 			],
 			"segmentRotation" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
 			],
 			"segmentFlip" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1, 1, 1
 			]
 		},
 		{
 			"segment" : "max_straw_bucket_sand_sponge_lava",
 			"segmentPositions" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				[42, 40],[360, 69],[315, 8],[27, -6],[94, 69]
 			],
 			"segmentRotation" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
 			],
 			"segmentFlip" : [
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				],
-				[
-					
-				]
+				0,0,0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1, 1, 1
 			]
 		}
 	]

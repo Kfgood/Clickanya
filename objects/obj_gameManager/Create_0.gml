@@ -25,6 +25,8 @@ global.initialClickDrainRateDigit = 0;
 
 global.maxItem = pointer_null;
 global.finalTier = pointer_null;
+global.items = [];
+
 global.shopSprites = {};
 global.displaySprites = {};
 global.upgradeSprites = {};
@@ -33,10 +35,10 @@ global.gameTime = 0;
 global.pause = false;
 
 global.usedMax = [];
+global.maxList = [];
 
-global.genericMax = [];
 global.max = {};
 
-barPosition = [0, 0];
-
 instance_create_layer(0, 0, 0, obj_scrollBar);
+
+audio_play_sound(BGM, 0, true);

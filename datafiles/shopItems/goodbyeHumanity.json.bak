@@ -1,0 +1,113 @@
+{
+	"itemName" : "Goodbye Humanity",
+	"growthFactorConstant" : 1,
+	"growthFactorConstantDigit" : 13,
+	"growthFactor" : 1.2,
+	"baseCost" : 1.35,
+	"baseCostDigit" : 16,
+	"waterDrainRate" : 3,
+	"waterDrainRateDigit" : 15,
+	"maxCost" : 0,
+	"spriteName" : "goodbyeHumanity",
+	"upgradeCost" : [
+		"1E17",
+		"1E18",
+		"1E19",
+		"1E20",
+		"1E22"
+	],
+	"additionalSpriteData" : [
+		{
+			"pos" : [55, 0],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [34, 34],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [100, 3],
+			"name" : "max",
+			"layer" : 1
+		}		
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[55, 0],[34, 34],[100, 3]
+			],
+			"segmentRotation" : [
+				16,0,0
+			],
+			"segmentFlip" : [
+				0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket",
+			"segmentPositions" : [
+				[55, 0],[34, 34],[100, 3]
+			],
+			"segmentRotation" : [
+				0,0,0
+			],
+			"segmentFlip" : [
+				0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand",
+			"segmentPositions" : [
+				[55, 0],[34, 34],[100, 3]
+			],
+			"segmentRotation" : [
+				0,0,0
+			],
+			"segmentFlip" : [
+				0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge",
+			"segmentPositions" : [
+				[55, 0],[34, 34],[100, 3]
+			],
+			"segmentRotation" : [
+				0.28,0,0
+			],
+			"segmentFlip" : [
+				0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge_lava",
+			"segmentPositions" : [
+				[55, 0],[34, 34],[100, 3]
+			],
+			"segmentRotation" : [
+				0.28,0,0
+			],
+			"segmentFlip" : [
+				0,0,0
+			],
+			"segmentLayer" : [
+				1, 1, 1
+			]
+		}
+	]
+}

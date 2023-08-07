@@ -1,19 +1,19 @@
 {
-	"itemName" : "Electric Pump",
-	"growthFactorConstant" : 1,
-	"growthFactorConstantDigit" : 3,
-	"growthFactor" : 1.6,
-	"baseCost" : 1.45,
-	"baseCostDigit" : 5,
-	"waterDrainRate" : 1,
-	"waterDrainRateDigit" : 4,
+	"itemName" : "Large Water Pump",
+	"growthFactorConstant" : 1.2,
+	"growthFactorConstantDigit" : 7,
+	"growthFactor" : 1.3,
+	"baseCost" : 1.2,
+	"baseCostDigit" : 10,
+	"waterDrainRate" : 1.5,
+	"waterDrainRateDigit" : 9,
 	"maxCost" : 2,
-	"spriteName" : "max_salute"
+	"spriteName" : "max_salute",
 	"upgradeCost" : [
-		"1E6",
-		"1E8",
-		"1E10",
-		"1E12",
-		"1E15"
+		"1E11",
+		"1E13",
+		"1E15",
+		"1E17",
+		"1E20"
 	]
 }

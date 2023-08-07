@@ -11,7 +11,7 @@
 	"spriteName" : "water-pump",
 	"additionalSpriteData" : [
 		{
-			"pos" : [20, 0],
+			"pos" : [0, 0],
 			"name" : "max",
 			"layer" : -1
 		}
@@ -27,7 +27,7 @@
 		{
 			"segment" : "max_straw",
 			"segmentPositions" : [
-				[20,0]
+				[0,0]
 			],
 			"segmentRotation" : [
 				0
@@ -42,7 +42,7 @@
 		{
 			"segment" : "max_straw_bucket",
 			"segmentPositions" : [
-				[20,0]
+				[0,0]
 			],
 			"segmentRotation" : [
 				0
@@ -57,7 +57,7 @@
 		{
 			"segment" : "max_straw_bucket_sand",
 			"segmentPositions" : [
-				[20,0]
+				[0,0]
 			],
 			"segmentRotation" : [
 				0
@@ -72,7 +72,7 @@
 		{
 			"segment" : "max_straw_bucket_sand_sponge",
 			"segmentPositions" : [
-				[20,0]
+				[0,0]
 			],
 			"segmentRotation" : [
 				0
@@ -87,7 +87,7 @@
 		{
 			"segment" : "max_straw_bucket_sand_sponge_lava",
 			"segmentPositions" : [
-				[20,0]
+				[0,0]
 			],
 			"segmentRotation" : [
 				0

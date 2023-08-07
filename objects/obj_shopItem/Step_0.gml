@@ -8,7 +8,11 @@
 */
 if (itemCount <= 0)
 	return;
-	
+
+if (!unlocked)
+	if ((itemTier > 0 && global.items[itemTier - 1].itemCount > 0) || itemCount > 0) {
+		unlocked = true;
+	}
 
 counter++;
 var temp = convertToDigit(waterDrainRate * itemCount * counter * drainRateModifiers / 60);

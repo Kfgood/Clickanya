@@ -18,7 +18,7 @@ if (struct_get(global.upgradeSprites, spriteName)) {
 	sprite = struct_get(global.upgradeSprites, spriteName);
 }
 else {
-	sprite = sprite_add(working_directory + "/sprites/upgrades/" + spriteName + ".png", 1, true, true, 0, 0);
+	sprite = sprite_add(working_directory + "/sprites/upgrades/" + spriteName + ".png", 1, false, true, 0, 0);
 	struct_set(global.upgradeSprites, spriteName, sprite);
 }
 

@@ -8,12 +8,106 @@
 	"waterDrainRate" : 1,
 	"waterDrainRateDigit" : 6,
 	"maxCost" : 3,
-	"spriteName" : "max_salute",
+	"spriteName" : "waterTruck",
 	"upgradeCost" : [
 		"1E8",
 		"1E10",
 		"1E12",
 		"1E14",
 		"1E17"
+	],
+	"additionalSpriteData" : [
+		{
+			"pos" : [70, 0],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [144, 83],
+			"name" : "max",
+			"layer" : 1
+		},
+		{
+			"pos" : [209, 42],
+			"name" : "max",
+			"layer" : -1
+		}
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[70, 0], [144, 83], [209, 42]
+			],
+			"segmentRotation" : [
+				0, 0, 0
+			],
+			"segmentFlip" : [
+				0, 0, 0
+			],
+			"segmentLayer" : [
+				1, 1, -1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket",
+			"segmentPositions" : [
+				[70, 0], [144, 83], [209, 42]
+			],
+			"segmentRotation" : [
+				0, 0, 0
+			],
+			"segmentFlip" : [
+				0, 0, 0
+			],
+			"segmentLayer" : [
+				1, 1, -1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand",
+			"segmentPositions" : [
+				[70, 0], [144, 83], [209, 42]
+			],
+			"segmentRotation" : [
+				0, 0, 0
+			],
+			"segmentFlip" : [
+				0, 0, 0
+			],
+			"segmentLayer" : [
+				1, 1, -1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge",
+			"segmentPositions" : [
+				[70, 0], [144, 83], [209, 42]
+			],
+			"segmentRotation" : [
+				0, 0, 0
+			],
+			"segmentFlip" : [
+				0, 0, 0
+			],
+			"segmentLayer" : [
+				1, 1, -1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge_lava",
+			"segmentPositions" : [
+				[70, 0], [144, 83], [209, 42]
+			],
+			"segmentRotation" : [
+				0, 0, 0
+			],
+			"segmentFlip" : [
+				0, 0, 0
+			],
+			"segmentLayer" : [
+				1, 1, -1
+			]
+		}
 	]
 }

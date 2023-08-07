@@ -14,7 +14,7 @@ if (!variable_instance_exists(self, "sprite")) {
 		sprite = struct_get(global.displaySprites, spriteName);
 	}
 	else {
-		sprite = sprite_add(working_directory + "/sprites/items/display/" + spriteName + ".png", 1, true, true, 0, 0);
+		sprite = sprite_add(working_directory + "/sprites/items/display/" + spriteName + ".png", 1, false, true, 0, 0);
 		struct_set(global.displaySprites, spriteName, sprite);
 	}
 }

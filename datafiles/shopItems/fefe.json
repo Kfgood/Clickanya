@@ -8,12 +8,29 @@
 	"waterDrainRate" : 4,
 	"waterDrainRateDigit" : 18,
 	"maxCost" : 0,
-	"spriteName" : "max_salute",
+	"spriteName" : "fefe",
 	"upgradeCost" : [
 		"1E20",
 		"5E20",
 		"1E21",
 		"1E22",
 		"5E22"
+	],
+	"upgradeGraphics" : [
+		{
+			"main" : "fefe_straw"
+		},
+		{
+			"main" : "fefe_straw_bucket"
+		},
+		{
+			"main" : "fefe_straw_bucket_sand"
+		},
+		{
+			"main" : "fefe_straw_bucket_sand_sponge"
+		},
+		{
+			"main" : "fefe_straw_bucket_sand_sponge_lava"
+		}
 	]
 }

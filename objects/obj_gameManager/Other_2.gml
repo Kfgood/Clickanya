@@ -68,12 +68,14 @@ if (is_array(items)) {
 	
 	global.finalTier = items[array_length(items) - 1];
 	
+	items[0].unlocked = true;
 	for (var i = 0; i < array_length(items); i++) {
 		items[i].y = posY;
+		items[i].itemTier = i;
 		
 		for (var k = 0; k < array_length(upgrades); k++) {
 			upgrades[k].tiedObj = items[i];
-			var upgrade = instance_create_depth(posX + 32*k, posY - 32, -1, obj_upgrades, upgrades[k]);
+			var upgrade = instance_create_depth(posX + 32*k + string_width("Upgrades: "), posY - 32, -1, obj_upgrades, upgrades[k]);
 			array_push(items[i].upgrades, upgrade);
 			upgrade.visible = false;
 			if (variable_instance_exists(items[i], "upgradeRequirement")) {
@@ -89,8 +91,10 @@ if (is_array(items)) {
 	}
 }
 
+global.items = items;
+
 path = working_directory + "/maxNames.json";
-var fileId = file_text_open_read(working_directory);
+var fileId = file_text_open_read(path);
 
 if (!fileId) return;
 
@@ -99,3 +103,4 @@ while (!file_text_eof(fileId))
 	fileData += file_text_readln(fileId);
 file_text_close(fileId);
 
+global.max = json_parse(fileData);

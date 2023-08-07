@@ -46,6 +46,7 @@ function digitNumberComparison(num1, digit1, num2, digit2) {
 }
 
 function convertToDigit(amount) {
+	if (amount == 0) return [0, 0];
 
 	var amountDigit = floor(logn(10, amount));
 	amount /= power(10, amountDigit);
