@@ -7,6 +7,8 @@ if (!variable_instance_exists(self, "displayItemName")) {
 	spriteName = "max";
 }
 
+defaultY = 0;
+
 if (!variable_instance_exists(self, "sprite")) {
 	sprite = pointer_null;
 

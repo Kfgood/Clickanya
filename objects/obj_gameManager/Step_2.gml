@@ -8,6 +8,6 @@ if (global.drainedWater >= 10 || (global.drainedWater < 1 && global.drainedWater
 }
 
 //For game victory only need to check the top 5 digits and that the last digit is more than 1
-if (global.drainedWaterDigit >= global.waterInOceanDigit && global.drainedWater > 0) {
-	//Victory stuff
+if (global.drainedWaterDigit >= global.waterInOceanDigit && global.drainedWater >= global.waterInOcean) {
+	room_goto(rm_victoryRoom);
 }

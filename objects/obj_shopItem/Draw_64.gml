@@ -8,7 +8,7 @@ numTot[1] += waterDrainRateDigit;
 num = digitToExpanded(num[0], num[1]);
 numTot = digitToExpanded(numTot[0], numTot[1]);
 
-var drawString = string("Name: {0}\nCount: {1} L\nDrain Rate: {2} L/s\nTotal Drain Rate: {3} L/s",
+var drawString = string("Name: {0}\nCount: {1}\nDrain Rate: {2} L/s\nTotal Drain Rate: {3} L/s",
 	itemName, itemCount, num, numTot);
 
 var w = string_width(drawString);

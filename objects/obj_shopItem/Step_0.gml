@@ -12,11 +12,14 @@ if (itemCount <= 0)
 if (!unlocked)
 	if ((itemTier > 0 && global.items[itemTier - 1].itemCount > 0) || itemCount > 0) {
 		unlocked = true;
+		if (itemTier < array_length(global.items) - 1) {
+			global.items[itemTier + 1].visible = true;
+		}
 	}
 
 counter++;
 var temp = convertToDigit(waterDrainRate * itemCount * counter * drainRateModifiers / 60);
-var result = increaseWaterDrained(temp[0], temp[1] + waterDrainRateDigit);
+var result = increaseWaterDrained(drainPerTick[0] * counter, drainPerTick[1]);
 if (is_array(result)) {
 	show_debug_message("Lost water from large addition: {0}e{1}", result[0], result[1]);
 }

@@ -7,7 +7,6 @@ if (!variable_instance_exists(self, "upgradeName")) {
 
 if (!variable_instance_exists(self, "tiedObj")) {
 	tiedObj = pointer_null;
-	cost = [0, 0];
 }
 else if (!variable_instance_exists(self, "cost"))
 	cost = calculateCost(floor(requirementCount*1.5), tiedObj.growthFactor, 1,
@@ -23,3 +22,5 @@ else {
 }
 
 purchased = false;
+forClicks = false;
+tier = 0;

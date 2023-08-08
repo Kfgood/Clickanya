@@ -23,8 +23,10 @@ upgradeTier = 0;
 itemTier = 0;
 
 unlocked = 0;
+discovered = 0;
 
 drainRateModifiers = 1;
+drainPerTick = [0,0];
 
 displayCurrXIndex = 0;
 displayCurrYIndex = 0;
@@ -36,6 +38,8 @@ sprite = pointer_null;
 upgrades = [];
 upgradeIndex = 0;
 unlockedUpgrades = -1;
+
+defaultY = y;
 
 cost = calculateCost(itemCount, growthFactor, 1, baseCost, baseCostDigit, growthFactorConstant, growthFactorConstantDigit);
 cost10 = calculateCost(itemCount, growthFactor, 10, baseCost, baseCostDigit + 1, growthFactorConstant, growthFactorConstantDigit);

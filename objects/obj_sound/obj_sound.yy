@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "audio",
-    "path": "sprites/audio/audio.yy",
+    "name": "spr_audio",
+    "path": "sprites/spr_audio/spr_audio.yy",
   },
   "spriteMaskId": null,
   "visible": true,

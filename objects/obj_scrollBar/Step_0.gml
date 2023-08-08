@@ -34,7 +34,8 @@ with (obj_displayObj) {
 }
 
 with (obj_upgrades) {
-	y -= _y;
+	if (!forClicks)
+		y -= _y;
 }
 
 with (obj_shopItem) {

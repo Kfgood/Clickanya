@@ -1,1 +1,0 @@
-/// @description Handle drawing events

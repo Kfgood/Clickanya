@@ -22,6 +22,8 @@ global.drainedWater = 0;
 global.drainedWaterDigit = 0;
 global.initialClickDrainRate = 1;
 global.initialClickDrainRateDigit = 0;
+global.clickRateMul = 0;
+global.clickRateUpgrades = [];
 
 global.maxItem = pointer_null;
 global.finalTier = pointer_null;
@@ -39,6 +41,6 @@ global.maxList = [];
 
 global.max = {};
 
-instance_create_layer(0, 0, 0, obj_scrollBar);
+instance_create_depth(0, 0, 0, obj_scrollBar);
 
 audio_play_sound(BGM, 0, true);

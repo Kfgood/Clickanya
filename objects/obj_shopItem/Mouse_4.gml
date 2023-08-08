@@ -64,9 +64,8 @@ if (collision_point(mouse_x, mouse_y, self, false, false)) {
 			name = string_trim(name);
 		}
 		
-		var s = displaySprite;
-		
-		var newItem = spawnNewDisplay(s, yX, yC, name);
+		var newItem = spawnNewDisplay(displaySprite, yX, yC, name);
+		newItem.defaultY = defaultY + sprite_get_height(displaySprite) * displayCurrYIndex;
 		newItem.tiedObj = self;
 		
 		array_push(displayObjects, newItem);
@@ -93,4 +92,6 @@ if (collision_point(mouse_x, mouse_y, self, false, false)) {
 	cost = calculateCost(itemCount, growthFactor, 1, baseCost, baseCostDigit, growthFactorConstant, growthFactorConstantDigit);
 	cost10 = calculateCost(itemCount, growthFactor, 10, baseCost, baseCostDigit + 1, growthFactorConstant, growthFactorConstantDigit);
 	cost100 = calculateCost(itemCount, growthFactor, 100, baseCost, baseCostDigit + 2, growthFactorConstant, growthFactorConstantDigit);
+	drainPerTick = convertToDigit(waterDrainRate * itemCount * drainRateModifiers / 60);
+	drainPerTick[1] += waterDrainRateDigit;
 }
