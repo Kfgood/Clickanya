@@ -1,0 +1,6 @@
+{
+	"upgradeName" : "Sand",
+	"upgradeMul" : 5,
+	"requirementCount" : 35,
+	"spriteName" : "sand"
+}

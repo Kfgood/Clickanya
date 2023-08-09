@@ -1,0 +1,6 @@
+{
+	"upgradeName" : "Lava",
+	"upgradeMul" : 20,
+	"requirementCount" : 70,
+	"spriteName" : "lava"
+}

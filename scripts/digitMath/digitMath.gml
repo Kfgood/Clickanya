@@ -46,6 +46,7 @@ function digitNumberComparison(num1, digit1, num2, digit2) {
 }
 
 function convertToDigit(amount) {
+	if (amount == 0) return [0, 0];
 
 	var amountDigit = floor(logn(10, amount));
 	amount /= power(10, amountDigit);
@@ -55,12 +56,12 @@ function convertToDigit(amount) {
 
 function addDigitNumber(num1, digit1, num2, digit2) {
 	
-	if (num1 >= 10) {
+	if (num1 >= 10 || num1 < 1) {
 		var temp = convertToDigit(num1);
 		num1 = temp[0];
 		digit1 += temp[1];
 	}
-	if (num2 >= 10) {
+	if (num2 >= 10 || num2 < 1) {
 		var temp = convertToDigit(num2);
 		num2 = temp[0];
 		digit2 += temp[1];

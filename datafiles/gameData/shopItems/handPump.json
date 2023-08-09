@@ -1,0 +1,103 @@
+{
+	"itemName" : "Hand Pump",
+	"growthFactorConstant" : 1,
+	"growthFactorConstantDigit" : 3,
+	"growthFactor" : 1.6,
+	"baseCost" : 1.45,
+	"baseCostDigit" : 5,
+	"waterDrainRate" : 1,
+	"waterDrainRateDigit" : 4,
+	"maxCost" : 1,
+	"spriteName" : "water-pump",
+	"additionalSpriteData" : [
+		{
+			"pos" : [0, 0],
+			"name" : "max",
+			"layer" : -1
+		}
+	],
+	"upgradeCost" : [
+		"1E6",
+		"1E8",
+		"1E10",
+		"1E12",
+		"1E15"
+	],
+	"upgradeGraphics" : [
+		{
+			"segment" : "max_straw",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
+		},
+		{
+			"segment" : "max_straw_bucket_sand_sponge_lava",
+			"segmentPositions" : [
+				[0,0]
+			],
+			"segmentRotation" : [
+				0
+			],
+			"segmentFlip" : [
+				0
+			],
+			"segmentLayer" : [
+				-1
+			]
+		}
+	]
+}

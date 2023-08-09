@@ -154,6 +154,6 @@ function calculateCost(index, growthFactor, counts = 1, baseCost = 0, baseCostDi
 	//+ base*i
 	temp = addDigitNumber(sum, sumDigit, temp[0], baseCostDigit + temp[1]);
 	
-	return [temp[0], temp[1], currentCostA[0], currentCostA[1]];
+	return [temp[0], temp[1]];
 	
 }

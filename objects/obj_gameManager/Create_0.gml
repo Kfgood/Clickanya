@@ -22,8 +22,13 @@ global.drainedWater = 0;
 global.drainedWaterDigit = 0;
 global.initialClickDrainRate = 1;
 global.initialClickDrainRateDigit = 0;
+global.clickRateMul = 0;
+global.clickRateUpgrades = [];
 
 global.maxItem = pointer_null;
+global.finalTier = pointer_null;
+global.items = [];
+
 global.shopSprites = {};
 global.displaySprites = {};
 global.upgradeSprites = {};
@@ -32,6 +37,8 @@ global.gameTime = 0;
 global.pause = false;
 
 global.usedMax = [];
+global.maxList = [];
 
-global.genericMax = [];
 global.max = {};
+
+instance_create_depth(0, 0, 0, obj_scrollBar);
