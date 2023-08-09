@@ -10,7 +10,18 @@ while (!file_text_eof(fileId))
 	credits += file_text_readln(fileId) + "\n";
 file_text_close(fileId);
 
+maxLobes = "Max lobes you Tanya!! <3\nSorry for any scuff kitany1Teehee";
+
+default_font = draw_get_font();
+
+draw_set_font(fnt_Victory);
+
 credits_w = string_width(credits);
 credits_h = string_height(credits);
 
-sprite_heights = sprite_get_height(spr_victory) + sprite_get_height(spr_victory2);
+maxLobes_w = string_width(maxLobes);
+maxLobes_h = string_height(maxLobes);
+
+sprite_heights = sprite_get_height(spr_victory) + sprite_get_height(spr_victory2)*2;
+
+alphaScale = 1;
