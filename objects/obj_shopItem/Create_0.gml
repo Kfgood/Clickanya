@@ -49,7 +49,7 @@ if (struct_get(global.shopSprites, spriteName)) {
 	sprite = struct_get(global.shopSprites, spriteName);
 }
 else {
-	sprite = sprite_add(working_directory + "/sprites/items/" + spriteName + ".png", 1, false, true, 0, 0);
+	sprite = sprite_add(working_directory + "gameData/sprites/items/" + spriteName + ".png", 1, false, true, 0, 0);
 	struct_set(global.shopSprites, spriteName, sprite);
 }
 
@@ -57,7 +57,7 @@ if (struct_get(global.displaySprites, displaySpriteName)) {
 	displaySprite = struct_get(global.displaySprites, displaySpriteName);
 }
 else {
-	displaySprite = sprite_add(working_directory + "/sprites/items/display/" + displaySpriteName + ".png", 1, false, true, 0, 0);
+	displaySprite = sprite_add(working_directory + "gameData/sprites/items/display/" + displaySpriteName + ".png", 1, false, true, 0, 0);
 	struct_set(global.displaySprites, displaySpriteName, displaySprite);
 }
 
@@ -73,7 +73,7 @@ for (var i = 0; i < array_length(upgradeGraphics); i++) {
 			upgradeGraphics[i].main = struct_get(global.displaySprites, t);
 		}
 		else {
-			upgradeGraphics[i].main = sprite_add(working_directory + "/sprites/items/display/" + t + ".png", 1, false, true, 0, 0);
+			upgradeGraphics[i].main = sprite_add(working_directory + "gameData/sprites/items/display/" + t + ".png", 1, false, true, 0, 0);
 			struct_set(global.displaySprites, t, upgradeGraphics[i].main);
 		}
 	}
@@ -83,7 +83,7 @@ for (var i = 0; i < array_length(upgradeGraphics); i++) {
 			upgradeGraphics[i].segment = struct_get(global.displaySprites, t);
 		}
 		else {
-			upgradeGraphics[i].segment = sprite_add(working_directory + "/sprites/items/display/" + t + ".png", 1, false, true, 0, 0);
+			upgradeGraphics[i].segment = sprite_add(working_directory + "gameData/sprites/items/display/" + t + ".png", 1, false, true, 0, 0);
 			struct_set(global.displaySprites, t, upgradeGraphics[i].segment);
 		}
 	}

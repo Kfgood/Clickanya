@@ -4,7 +4,7 @@
 speed = 1;
 direction = 90;
 
-var fileId = file_text_open_read(working_directory + "credits.txt");
+var fileId = file_text_open_read(working_directory + "gameData/credits.txt");
 credits = "";
 while (!file_text_eof(fileId))
 	credits += file_text_readln(fileId) + "\n";
@@ -22,6 +22,6 @@ credits_h = string_height(credits);
 maxLobes_w = string_width(maxLobes);
 maxLobes_h = string_height(maxLobes);
 
-sprite_heights = sprite_get_height(spr_victory) + sprite_get_height(spr_victory2)*2;
+sprite_heights = sprite_get_height(spr_victory) + sprite_get_height(spr_victory2)*2 + 16;
 
 alphaScale = 1;

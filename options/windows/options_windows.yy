@@ -10,7 +10,7 @@
   "option_windows_description_info": "A game made for Tanya's 99th Birf",
   "option_windows_disable_sandbox": false,
   "option_windows_display_cursor": true,
-  "option_windows_display_name": "Tanya Drains the Ocean With Clicks",
+  "option_windows_display_name": "Clickanya - Goodbye Ocean",
   "option_windows_enable_steam": false,
   "option_windows_executable_name": "${project_name}.exe",
   "option_windows_icon": "icons/icon.ico",

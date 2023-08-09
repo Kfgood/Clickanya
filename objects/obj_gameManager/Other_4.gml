@@ -3,7 +3,7 @@
 
 //Load JSONs of shop items
 
-var path = working_directory + "/upgradeItems";
+var path = working_directory + "gameData/upgradeItems";
 
 var upgrades = loadJSONResource(path);
 
@@ -32,11 +32,11 @@ for (var i = 0; i < array_length(upgrades); i++) {
 		global.clickRateUpgrades[i].visible = false;
 		global.clickRateUpgrades[i].tier = i;
 		
-		global.cursorSprites[i] = sprite_add(working_directory + "/sprites/upgrades/cursor/" + global.clickRateUpgrades[i].spriteName + ".png", 0, false, false, 0, 0);
+		global.cursorSprites[i] = sprite_add(working_directory + "gameData/sprites/upgrades/cursor/" + global.clickRateUpgrades[i].spriteName + ".png", 0, false, false, 0, 0);
 		
 }
 
-path = working_directory + "/shopItems";
+path = working_directory + "gameData/shopItems";
 
 var items = loadJSONResource(path);
 
@@ -110,7 +110,7 @@ if (is_array(items)) {
 
 global.items = items;
 
-path = working_directory + "/maxNames.json";
+path = working_directory + "gameData/maxNames.json";
 var fileId = file_text_open_read(path);
 
 if (!fileId) return;

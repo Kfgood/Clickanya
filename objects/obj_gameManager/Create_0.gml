@@ -42,5 +42,3 @@ global.maxList = [];
 global.max = {};
 
 instance_create_depth(0, 0, 0, obj_scrollBar);
-
-audio_play_sound(BGM, 0, true);
